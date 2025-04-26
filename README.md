@@ -109,6 +109,17 @@ ERD (Entity Relationship Diagram) adalah gambar yang membantu kita merancang dat
 
 ### Contoh ERD: Sistem Toko Online
 
+```mermaid
+graph TD
+    A[ERD] --> B[Tabel]
+    A --> C[Kolom]
+    A --> D[Relasi]
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style D fill:#fbb,stroke:#333,stroke-width:2px
+```
+
 [](https://github.com/nobohiko-svg/mysqlmarkdown/blob/collab/ridzeal/db_design.md#contoh-erd-sistem-toko-online)
 
 ### Penjelasan Contoh ERD
